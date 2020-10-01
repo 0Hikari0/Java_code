@@ -1,0 +1,164 @@
+package come.a;
+
+import java.util.Scanner;
+
+public class b {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        System.out.println("x:" + x);
+
+    }
+}
+
+--------------------------------------------------
+package come.a;
+
+import java.util.Scanner;
+
+public class b {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        int max = a > b ? a : b;
+        System.out.println("max:" + max);
+    }
+}
+
+------------------------------------------------
+package come.a;
+
+import java.util.Scanner;
+
+public class b {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入第一个和尚的身高");
+        int height1 = sc.nextInt();
+
+        System.out.println("请输入第二个和尚的身高");
+        int height2 = sc.nextInt();
+
+        System.out.println("请输入第三个和尚的身高");
+        int height3 = sc.nextInt();
+
+        int tempheight = height1 > height2 ? height1 : height2;
+        int maxheight = tempheight > height3 ? tempheight : height3;
+        System.out.println("三个和尚中身高最高的是" + maxheight + "cm");
+    }
+
+}
+------------------------------------------------
+package come.a;
+
+import java.util.Scanner;
+
+public class b {
+    public static void main(String[] args) {
+        System.out.println("开始");
+
+        int a = 10;
+        int b = 20;
+
+        if (a == b) {
+            System.out.println("a=b");
+        }
+        System.out.println("结束");
+    }
+}
+
+-----------------------------------------------
+package come.a;
+
+import java.util.Scanner;
+
+public class b {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        b=5;
+        if (a > b) {
+            System.out.println("a>b");
+        } else {
+            System.out.println("a<b");
+        }
+    }
+}
+---------------------------------------------
+package come.a;
+
+import java.util.Scanner;
+
+public class b {
+    public static void main(String[] args) {
+        System.out.println("请输入数字");
+            Scanner sc = new Scanner(System.in);
+            int number= sc.nextInt();
+            if(number %2==0){
+                System.out.println(number+"是偶数");
+            }else{
+                System.out.println(number+"是奇数");
+            }
+    }
+}
+============================================
+package come.a;
+
+import java.util.Scanner;
+
+public class b {
+    public static void main(String[] args) {
+        System.out.println("请输入数字（1~7）");
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        if (number == 1) {
+            System.out.println("星期一");
+        } else if (number == 2) {
+            System.out.println("星期二");
+        } else if (number == 3) {
+            System.out.println("星期三");
+        } else if (number == 4) {
+            System.out.println("星期四");
+        } else if (number == 5) {
+            System.out.println("星期五");
+        } else if (number == 6) {
+            System.out.println("星期六");
+        } else if (number == 7) {
+            System.out.println("星期七");
+        } else {
+            System.out.println("数据不在范围内");
+        }
+        System.out.println("结束");
+    }
+}
+------------------------------------------------
+&//与
+|//或
+^//异或
+!//非
+-------------------------------------------------
+package come.a;
+
+import java.util.Scanner;
+
+public class b {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入成绩");
+        int score= sc.nextInt();
+        if(score<=100&&score>=95){
+            System.out.println("山地自行车一辆");
+        }else if(score<95&&score>=90){
+            System.out.println("游乐场游玩一次");
+        }else if(score<90&&score>=80){
+            System.out.println("变形金刚玩具一个");
+        }else if(score<80&&score>=0){
+            System.out.println("社会的毒打");
+        }else{
+            System.out.println("数据不在范围内");
+        }
+        System.out.println("结束");
+    }
+}
+
+------------------------------------------------
