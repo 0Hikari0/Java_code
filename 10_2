@@ -178,3 +178,17 @@ public class b {
 }
 
 -----------------------------------------------------------
+
+package come.a;
+
+
+public class b {
+    public static void main(String[] args) {
+        for (int h = 0; h < 3; h++) {
+            for (int m = 0; m < 3; m ++) {
+                System.out.println(h + ":" + m);
+            }
+        }
+    }
+}
+
