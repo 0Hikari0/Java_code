@@ -1,0 +1,180 @@
+package come.a;
+
+import java.util.Scanner;
+
+public class b {
+    public static void main(String[] args) {
+        System.out.println("开始");
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("请输入一个星期数（1~7）");
+        int week = sc.nextInt();
+        switch (week) {
+            case 1:
+                System.out.println("星期一");
+                break;
+            case 2:
+                System.out.println("星期二");
+                break;
+            case 3:
+                System.out.println("星期三");
+                break;
+            case 4:
+                System.out.println("星期四");
+                break;
+            case 5:
+                System.out.println("星期五");
+                break;
+            case 6:
+                System.out.println("星期六");
+                break;
+            case 7:
+                System.out.println("星期日");
+                break;
+            default:
+                System.out.println("数据不在范围内");
+                break;
+        }
+
+        System.out.println("结束");
+
+    }
+}
+
+---------------------------------------------------------------
+package come.a;
+
+import java.util.Scanner;
+
+public class b {
+    public static void main(String[] args) {
+        System.out.println("请输入月份（1~12）");
+        Scanner sc = new Scanner(System.in);
+        int month = sc.nextInt();
+        switch (month) {
+            case 1:
+            case 2:
+            case 12:
+                System.out.println("冬季");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("春季");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("夏季");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("秋季");
+                break;
+            default:
+                System.out.println("数据不在范围内");
+        }
+
+    }
+}
+
+---------------------------------------------------------
+package come.a;
+
+
+public class b {
+    public static void main(String[] args) {
+        for (int i = 5; i >= 1; i--) {
+            System.out.println(i);
+        }
+
+    }
+}
+-----------------------------------------------------------
+
+package come.a;
+
+
+public class b {
+    public static void main(String[] args) {
+        int sum = 0;
+        for (int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
+        }
+        System.out.println(sum);
+    }
+}
+
+
+package come.a;
+
+
+public class b {
+    public static void main(String[] args) {
+        int sum = 0;
+        for (int i = 0; i <= 100; i += 2) {
+            sum += i;
+        }
+        System.out.println(sum);
+    }
+}
+--------------------------------------------------------
+
+package come.a;
+
+
+public class b {
+    public static void main(String[] args) {
+        for (int i = 100; i < 1000; i++) {
+            int a = i % 10;
+            int b = i / 10 % 10;
+            int c = i / 100;
+            if (a * a * a + b * b * b + c * c * c == i) {
+                System.out.println(i);
+            }
+        }
+
+    }
+}
+
+===========================================================
+
+
+public class b {
+    public static void main(String[] args) {
+        int count = 0;
+        for (int i = 100; i < 1000; i++) {
+            int a = i % 10;
+            int b = i / 10 % 10;
+            int c = i / 100;
+            if (a * a * a + b * b * b + c * c * c == i) {
+                count++;
+            }
+        }
+        System.out.println(count);
+
+    }
+}
+
+-----------------------------------------------------------
+package come.a;
+
+
+public class b {
+    public static void main(String[] args) {
+        int c = 0;
+        double p = 0.1;
+        int m = 8844430;
+        while (p < m) {
+            p *= 2;
+            c++;
+
+        }
+        System.out.println(c);
+    }
+}
+
+-----------------------------------------------------------
