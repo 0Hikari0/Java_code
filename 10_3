@@ -74,3 +74,20 @@ public class aa {
 
 }
 ==============================================================
+package come.a;
+
+
+public class aa {
+    public static void main(String[] args) {
+        int[] arr = {55, 49, 98, 80, 60};
+        int m = arr[0];
+        for (int x = 1; x < arr.length; x++) {
+            if (arr[x] > m) {
+                m = arr[x];
+            }
+        }
+        System.out.println(m);
+
+
+    }
+}
