@@ -1,0 +1,108 @@
+package come.a;
+import java.util.Scanner;
+public class aa {
+    public static void main(String[] args) {
+        isEvenNumber();
+    }
+
+    public static void isEvenNumber() {
+        System.out.println("请输入任意整数");
+       Scanner sc = new Scanner(System.in);
+       int n = sc.nextInt();
+        if (n % 2 == 0) {
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+
+    }
+}
+
+=======================================================
+package come.a;
+
+import java.util.Scanner;
+
+public class aa {
+    public static void main(String[] args) {
+        GetMax();
+    }
+
+    public static void GetMax() {
+        System.out.println("请输入任意两个数");
+        Scanner sc = new Scanner(System.in);
+        Scanner sa = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sa.nextInt();
+        if (a > b) {
+            System.out.println(a);
+        } else {
+            System.out.println(b);
+        }
+    }
+}
+
+=======================================================
+package come.a;
+
+import java.util.Scanner;
+
+public class aa {
+    public static void main(String[] args) {
+        GetMax(5);
+    }
+
+    public static void GetMax(int n) {
+
+        System.out.println(n);
+    }
+}
+
+
+--------------------------------------------------------------
+  package come.a;
+
+import java.util.Scanner;
+
+public class aa {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        Scanner sa = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sa.nextInt();
+        GetMax(a, b);
+    }
+
+    public static void GetMax(int a, int b) {
+        if (a > b) {
+            System.out.println(a);
+        } else {
+            System.out.println(b);
+        }
+
+    }
+}
+
+
+====================================================================
+package come.a;
+
+import java.util.Scanner;
+
+public class aa {
+    public static void main(String[] args) {
+        boolean flag = AA(10);
+        System.out.println(flag);
+    }
+
+    public static boolean AA(int a) {
+        if (a % 2 == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+
+
+----------------------------------------------------------------------
