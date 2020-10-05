@@ -1,0 +1,84 @@
+package come.a;
+
+
+public class aa {
+    public static void main(String[] args) {
+       /* int r = GetMax(10, 20);
+        System.out.println(r);*/
+        System.out.println(GetMax(10,20));
+
+    }
+
+    public static int GetMax(int a, int b) {
+        if (a > b) {
+            return a;
+        } else {
+            return b;
+        }
+
+    }
+}
+
+
+===============================================================
+package come.a;
+
+
+import com.sun.javafx.application.PlatformImpl;
+
+public class aa {
+    public static void main(String[] args) {
+        System.out.println(c(10, 20));
+        System.out.println(c((byte) 10, (byte) 20));
+        System.out.println(c((short) 10, (short) 20));
+        System.out.println(c(10L, 20L));
+
+    }
+
+    public static boolean c(int a, int b) {
+        return a == b;
+    }
+
+    public static boolean c(byte a, byte b) {
+        return a == b;
+    }
+
+    public static boolean c(short a, short b) {
+        return a == b;
+    }
+
+    public static boolean c(long a, long b) {
+        return a == b;
+    }
+}
+
+
+------------------------------------------------------------------
+
+
+package come.a;
+
+
+import com.sun.javafx.application.PlatformImpl;
+
+public class aa {
+    public static void main(String[] args) {
+        int[] arr = {11, 22, 33, 44, 55};
+        PA(arr);
+    }
+
+    public static void PA(int[] arr) {
+        System.out.print("[");
+        for (int x = 0; x < arr.length; x++) {
+            if (x == arr.length - 1) {
+                System.out.print(arr[x]);
+            } else {
+                System.out.print(arr[x] + ", ");
+            }
+        }
+        System.out.print("]");
+    }
+}
+
+=====================================================================
+
